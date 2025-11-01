@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# VSCode settings
+.vscode/
+
+# Optional
+*.log
