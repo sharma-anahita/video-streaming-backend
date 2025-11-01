@@ -1,19 +1,35 @@
-# 🎬 Video Streaming Backend System
+# 🎥 Video Streaming Backend System
 
-**Tech Stack:** Node.js, Express.js, MongoDB, Cloudinary
+**Tech Stack:** Node.js · Express.js · MongoDB · Cloudinary  
+
+---
 
 ## 🚀 Overview
-Engineered a scalable backend for a video streaming platform, focusing on the full development lifecycle from design to deployment planning.
+A scalable backend for a video streaming platform — built with modular architecture, secure authentication, and cloud media handling.  
+Currently backend-only; frontend integration and engagement features (likes system) are in progress.
 
-## 🧩 Features
-- Built secure RESTful APIs using **Express.js (MVC pattern)** with **JWT authentication** for user and admin security.  
-- Managed data persistence with **MongoDB** and **Mongoose** for users, subscriptions, and video metadata.  
-- Implemented media upload & management using **Multer** and **Cloudinary**.  
-- Planned for **CI/CD integration** for automated deployment and testing.
+---
 
-## ⚙️ Setup Instructions
+## 🧩 Current Features
+✅ RESTful API using Express.js (MVC pattern)  
+✅ JWT authentication for users & admins  
+✅ MongoDB + Mongoose for user, subscription, and video data  
+✅ Multer + Cloudinary for video upload and management  
+✅ Centralized error and response handling (custom utils)  
+
+---
+
+## 🔧 Upcoming Additions
+🔹 React.js frontend for full-stack integration  
+🔹 Like / Dislike system for videos  
+🔹 Enhanced dashboard for user activity  
+🔹 CI/CD setup for automated deployment  
+
+---
+
+## ⚙️ Setup
 ```bash
-git clone https://github.com/sharma-anahita/gamefied-mood-tracker-v2.git
-cd gamefied-mood-tracker-v2
+git clone https://github.com/sharma-anahita/video-streaming-backend.git
+cd video-streaming-backend
 npm install
-npm start
+npm run dev
